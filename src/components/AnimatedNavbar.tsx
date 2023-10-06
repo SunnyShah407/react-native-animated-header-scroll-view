@@ -10,6 +10,7 @@ const AnimatedNavbar = ({
   TopNavbarComponent,
   headerHeight,
   headerElevation,
+  backgroundNavColor
 }: AnimatedNavbarProps) => {
   const [headerOpacity, overflowHeaderOpacity] = useAnimateNavbar(
     scroll,
@@ -27,6 +28,7 @@ const AnimatedNavbar = ({
             height: headerHeight,
             opacity: headerOpacity,
             elevation: headerElevation,
+            backgroundColor:backgroundNavColor
           },
         ]}
       >

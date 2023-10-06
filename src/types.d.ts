@@ -47,7 +47,7 @@ type AnimatedViewProps = {
    * Disables header scaling when scrolling
    */
   disableScale?: boolean;
-
+  backgroundNavColor? : string
   /**
    * Image styles
    */
@@ -65,6 +65,7 @@ export type AnimatedNavbarProps = {
   imageHeight: number;
   headerHeight: number;
   headerElevation: number;
+  backgroundNavColor? : string
 };
 
 export type AnimatedHeaderProps = {

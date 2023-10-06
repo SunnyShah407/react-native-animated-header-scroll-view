@@ -9,7 +9,7 @@ export const useAnimateScrollView = (
 
   const scale = scroll.interpolate({
     inputRange: [-imageHeight, 0, imageHeight],
-    outputRange: [2.5, 1, 0.85],
+    outputRange: [1, 1, 0.85],
     extrapolate: 'clamp',
   });
 
